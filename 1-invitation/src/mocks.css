@@ -1,0 +1,13 @@
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10000px;
+  opacity: 0.25;
+  pointer-events: none;
+
+  background: url("./invitation--desktop.png") no-repeat center top / 600px 2145px; left:0px; top:0px;
+  /*background: url("./invitation--mobile.png") no-repeat center top / 320px 2708px; left:0px; top:0px;*/
+}
