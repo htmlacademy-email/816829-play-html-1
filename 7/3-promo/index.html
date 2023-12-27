@@ -15,6 +15,49 @@
   text-decoration: none !important;
 }
 
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100% !important;
+    min-width: 320px !important;
+  }
+
+  .column {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  /* Заголовок */
+  .header-td-bottom {
+    padding-top: 24px !important;
+  }
+
+  /* Популярные курсы */
+  .popular-column {
+    width: 100% !important;
+  }
+
+  .popular-column-margin {
+    padding-bottom: 40px;
+  }
+
+  .popular-reset {
+    padding: 0 !important;
+  }
+
+  .popular-inner {
+    width: 152px !important;
+  }
+
+  /* Курсы в акции */
+  .courses-column {
+    float: none !important;
+  }
+}
+
     </style>
   </head>
   <body style="width:100%;padding:0;Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:16px;line-height:normal;color:#000000;background-color:#ffffff;">
@@ -26,24 +69,12 @@
       <table cellspacing="0" cellpadding="0" border="0" width="100%">
         <tr>
           <td>
-            <style>
-  @media screen and (max-width: 599px) {
-    .header-table {
-      width: 100% !important;
-    }
-
-    .header-td-bottom {
-      padding-top: 24px !important;
-    }
-  }
-</style>
-
-<!-- Заголовок -->
-<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:568px;">
+            <!-- Заголовок -->
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
-    <td style="padding:52px 16px 36px 16px;">
+    <td style="padding:52px 32px 36px 32px;">
       <!--[if mso]><table style="width:568px" cellpadding="0" cellspacing="0"><tr><td style="width:396px" valign="top"><![endif]-->
-      <table class="header-table" cellspacing="0" cellpadding="0" border="0" style="float:right;">
+      <table class="column" cellspacing="0" cellpadding="0" border="0" style="float:right;">
         <tr>
           <td>
             <table align="center" cellspacing="0" cellpadding="0" border="0">
@@ -82,7 +113,7 @@
         </tr>
       </table>
       <!--[if mso]></td><td style="width:0;"></td><td style="width:140px" valign="top"><![endif]-->
-      <table class="header-table" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:140px;float:left;">
+      <table class="column" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:140px;float:left;">
         <tr>
           <td class="header-td-bottom">
             <table align="center" cellspacing="0" cellpadding="0" border="0">
@@ -135,19 +166,7 @@
     </td>
   </tr>
 </table>
-            <style>
-  @media screen and (max-width: 599px) {
-    .courses-container {
-      width: 100% !important;
-    }
-
-    .courses-column {
-      float: none !important;
-    }
-  }
-</style>
-
-<table class="courses-container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
+            <table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
     <td style="padding:0 16px 24px 16px;">
       <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#FFFFFF;border-radius:0 0 15px 15px;">
@@ -376,31 +395,7 @@
     </td>
   </tr>
 </table>
-            <style>
-  @media screen and (max-width: 599px) {
-    .popular-container {
-      width: 100% !important;
-    }
-
-    .popular-column {
-      width: 100% !important;
-    }
-
-    .popular-column-margin {
-      padding-bottom: 40px;
-    }
-
-    .popular-reset {
-      padding: 0 !important;
-    }
-
-    .popular-inner {
-      width: 152px !important;
-    }
-  }
-</style>
-
-<table class="popular-container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
+            <table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
     <td style="padding:0 16px 0 16px;">
       <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#FFFFFF;border-radius:15px 15px 0 0;">
