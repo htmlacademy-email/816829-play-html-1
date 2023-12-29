@@ -21,9 +21,41 @@
     min-width: 320px !important;
   }
 
+  .w100p {
+    width: 100% !important;
+  }
+
+  .nofloat {
+    float: none !important;
+  }
+
   .column {
     width: 100% !important;
     float: none !important;
+  }
+
+  .pl16 {
+    padding-left: 16px !important;
+  }
+
+  .pr16 {
+    padding-right: 16px !important;
+  }
+
+  .pb16 {
+    padding-bottom: 16px !important;
+  }
+
+  .pt8 {
+    padding-top: 8px !important;
+  }
+
+  .pb32 {
+    padding-bottom: 32px !important;
+  }
+
+  .pt26 {
+    padding-top: 26px !important;
   }
 
   .desktop-only {
@@ -31,9 +63,13 @@
   }
 
   /* Заголовок */
+  .header-logo-container {
+    padding: 40px 16px 32px 16px !important;
+  }
+
   .header-link {
     padding-bottom: 16px !important;
-    width: 33.3% !important;
+    width: auto !important;
     font-size: 18px !important;
     text-align: center !important;
   }
@@ -41,6 +77,11 @@
   .header-link-last {
     width: 100% !important;
     padding-bottom: 0 !important;
+  }
+
+  .header-link-margin {
+    padding-left: 26px;
+    padding-right: 26px;
   }
 
   /* Ведущие */
@@ -56,7 +97,7 @@
     </style>
   </head>
   <body style="width:100%;padding:0;Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;font-size:16px;line-height:normal;color:#000000;background-color:#ffffff;">
-    <div style="background-color:#F6F6F6;"><!--[if gte mso 9]>
+    <div style="background-color:#FFFFFF;"><!--[if gte mso 9]>
 <v:background xmlns:v="urn:schemas-microsoft-com:vml" fill="t">
 <v:fill type="tile" color="#ffffff;"></v:fill>
 </v:background>
@@ -65,84 +106,102 @@
         <tr>
           <td>
             <!--Логотип-->
-<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
-    <td align="center" style="padding:56px 32px 56px 32px;">
-      <img src="https://raw.githubusercontent.com/ampu/816829-play-html-1/master/2-welcome/img/logo@2x.png" alt="PlayHTML" width="140" height="24" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
+    <td style="padding:0 16px 0 16px;">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="header-logo-container" align="center" style="padding:56px 16px 56px 16px;">
+            <img src="https://raw.githubusercontent.com/ampu/816829-play-html-1/master/2-welcome/img/logo@2x.png" alt="PlayHTML" width="140" height="24" border="0" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
 <!--Заголовок-->
-<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;text-align:left;">
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
-    <td style="padding: 0 32px 26px 32px;font-size:0;">
-      <a class="header-link link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#FF4B33;text-decoration:none;">КУРСЫ</a>
-      <a class="header-link link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#0B379B;text-decoration:none;">ВЕБИНАРЫ</a>
-      <a class="header-link link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#02BAD3;text-decoration:none;">О ШКОЛЕ</a>
-      <a class="header-link header-link-last link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#FFC81A;text-decoration:none;">РАСПРОДАЖА</a>
+    <td style="padding:0 16px 0 16px;">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0" style="text-align:left;">
+        <tr>
+          <td class="pb32" align="center" style="padding: 0 0 26px 0;font-size:0;text-align:center;">
+            <a class="header-link link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#FF4B33;text-decoration:none;">КУРСЫ</a>
+            <a class="header-link header-link-margin link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#0B379B;text-decoration:none;">ВЕБИНАРЫ</a>
+            <a class="header-link link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#02BAD3;text-decoration:none;">О ШКОЛЕ</a>
+            <a class="header-link header-link-last link" href="#" target="_blank" style="display:inline-block;width:134px;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#FFC81A;text-decoration:none;">РАСПРОДАЖА</a>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
+
             <!-- hero -->
-<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#0B379B;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#0B379B;">
   <tr>
-    <td style="padding:0 32px 0 32px;">
-      <!--[if mso]><table style="width:536px" cellpadding="0" cellspacing="0"><tr><td style="width:360px" valign="top"><![endif]-->
-      <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:360px;float:left;">
+    <td>
+      <table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
         <tr>
-          <td style="padding:32px 0 26px 0;">
-            <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#13D6C3;">Здравствуйте, {{name}}</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-bottom:24px;">
-            <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#ffffff;">Благодарим вас за регистрацию на курс «Начальный html+css».</p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-bottom: 24px;">
-            <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#ffffff;">Курс стартует 1 июля в 17.00 по&nbsp;московскому&nbsp;времени.
-              Письма со&nbsp;ссылками для входа в кабинет придут на&nbsp;указанную почту за день до старта курса.</p>
+          <td class="pr16 pl16" style="padding:0 32px 0 32px;">
+            <!--[if mso]><table style="width:536px" cellpadding="0" cellspacing="0"><tr><td style="width:360px" valign="top"><![endif]-->
+            <table class="column" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:360px;float:left;">
+              <tr>
+                <td class="pt26" style="padding:32px 0 26px 0;">
+                  <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#13D6C3;">Здравствуйте, {{name}}</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-bottom:24px;">
+                  <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#ffffff;">Благодарим вас за регистрацию на курс «Начальный html+css».</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-bottom: 24px;">
+                  <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#ffffff;">Курс стартует 1 июля в 17.00 по&nbsp;московскому&nbsp;времени. Письма со&nbsp;ссылками для входа в кабинет придут на&nbsp;указанную почту за день до старта курса.</p>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td><td style="width:0;"></td><td style="width:175px" valign="top"><![endif]-->
+            <table class="column" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:175px; float:right;">
+              <tr>
+                <td class="pb16" align="center">
+                  <img src="https://raw.githubusercontent.com/ampu/816829-play-html-1/master/2-welcome/img/hero@2x.jpg" alt="Благодарим за регистрацию на курс" width="175" height="269" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
+                </td>
+              </tr>
+            </table>
+            <!--[if mso]></td></tr></table><![endif]-->
           </td>
         </tr>
       </table>
-      <!--[if mso]></td><td style="width:0;"></td><td style="width:175px" valign="top"><![endif]-->
-      <table width="100%" cellspacing="0" cellpadding="0" border="0" style="width:175px; float:right;">
-        <tr>
-          <td>
-            <img src="https://raw.githubusercontent.com/ampu/816829-play-html-1/master/2-welcome/img/hero@2x.jpg" alt="Благодарим за регистрацию на курс" width="175" height="269" style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;"/>
-          </td>
-        </tr>
-      </table>
-      <!--[if mso]></td></tr></table><![endif]-->
     </td>
   </tr>
 </table>
             <!--План курса-->
-<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
   <tr>
-    <td align="center" style="padding:48px 32px 24px 32px;">
-      <h1 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:30px;line-height:normal;font-weight:700;color:#FF4B33;"><b>Что вас ждет на курсе</b></h1>
+    <td class="pl16 pr16" align="center" style="padding:48px 32px 24px 32px;">
+      <h1 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:30px;line-height:normal;font-weight:700;color:#FF4B33;">Что вас ждет на&nbsp;курсе</h1>
     </td>
   </tr>
   <tr>
-    <td style="padding:0 32px 21px 32px;">
+    <td class="pl16 pr16" style="padding:0 32px 21px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#141414;">Вы будете изучать теорию и методику на примере учебного проекта, который разработали наши эксперты. А применить полученные знания на практике вы сможете, выполняя задания по личному проекту.</p>
     </td>
   </tr>
   <tr>
-    <td style="padding:0 32px 21px 32px;">
+    <td class="pl16 pr16" style="padding:0 32px 21px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#141414;">В этом вам будет помогать наставник - опытный специалист, который проверит домашние задания и поделится секретами мастерства. А если у вас останутся вопросы, наставник сможет ответить на них на консультации.</p>
     </td>
   </tr>
   <tr>
-    <td style="padding:0 32px 21px 32px;">
+    <td class="pl16 pr16" style="padding:0 32px 21px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#141414;">После завершения курса вам нужно будет подготовить свой проект к защите — убедиться, что он реализован в соответствии с техническим заданием.</p>
     </td>
   </tr>
   <tr>
-    <td style="padding:0 32px 21px 32px;">
+    <td class="pl16 pr16" style="padding:0 32px 21px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#141414;">Желаем вам продуктивной работы на интенсиве и успешной защиты. У вас всё получится, мы в вас верим!</p>
     </td>
   </tr>
@@ -219,7 +278,7 @@
               </tr>
               <tr>
                 <td align="center">
-                  <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#000000;">Преподаватель IT в РУИТ</p>
+                  <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#000000;">Преподаватель IT<br/>в РУИТ</p>
                 </td>
               </tr>
             </table>
@@ -229,18 +288,18 @@
       <!--[if mso]></td></tr></table><![endif]-->
     </td>
   </tr>
-  <tr class="desktop-only">
-    <td style="padding:24px 32px 24px 32px;">
+  <tr>
+    <td class="pl16 pr16" style="padding:24px 32px 24px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#141414;">
         Пока вы ждёте начала курса, вам могут быть интересны вебинары на разные темы, которые проходят на платформе ежедневно.
       </p>
     </td>
   </tr>
 </table>
-            <table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
+            <table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;">
   <tr>
-    <td align="center" style="padding:24px 32px 24px 32px;">
-      <h2 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:30px;line-height:normal;font-weight:700;color:#0B379B;"><b>Другие мероприятия</b></h2>
+    <td class="pb16" align="center" style="padding:24px 16px 24px 16px;">
+      <h2 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:30px;line-height:normal;font-weight:700;color:#0B379B;">Другие мероприятия</h2>
     </td>
   </tr>
 
@@ -252,7 +311,7 @@
             <table width="100%" cellspacing="0" cellpadding="0" border="0">
               <tr>
                 <td style="padding-bottom:8px;">
-                  <h3 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:24px;line-height:normal;color:#02BAD3;"><b>Тренды frontend-разработки</b></h3>
+                  <h3 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:24px;line-height:normal;font-weight:700;color:#02BAD3;">Тренды frontend-разработки</h3>
                 </td>
               </tr>
               <tr>
@@ -329,7 +388,7 @@
   </tr>
 
   <tr>
-    <td align="center" style="padding:16px 16px 16px 16px;">
+    <td class="pt8" align="center" style="padding:16px 16px 16px 16px;">
       <a href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:18px;line-height:normal;color:#ffffff;display:inline-block;background-color:#FF4B33;border:8px solid #FF4B33;border-width:8px 16px;border-radius:5px;text-decoration:none;">Все мероприятия</a>
     </td>
   </tr>
@@ -346,12 +405,12 @@
       <!--[if mso]><table style="width:600px" cellpadding="0" cellspacing="0"><tr><td style="width:315px" valign="top"><![endif]-->
       <table class="column" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:315px;float:left;">
         <tr>
-          <td style="padding:0 0 18px 32px;">
+          <td class="pl16" style="padding:0 0 18px 32px;">
             <h2 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;color:#333333;"><b>Мы в социальных сетях</b></h2>
           </td>
         </tr>
         <tr>
-          <td style="padding:0 0 24px 32px;">
+          <td class="pl16" style="padding:0 0 24px 32px;">
 
             <table cellspacing="0" cellpadding="0" border="0">
               <tr>
@@ -386,17 +445,17 @@
           </td>
         </tr>
         <tr>
-          <td style="padding:0 0 10px 32px;">
+          <td class="pl16" style="padding:0 0 10px 32px;">
             <h2 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;font-weight:700;color:#333333;"><b>Свяжитесь с нами</b></h2>
           </td>
         </tr>
         <tr>
-          <td style="padding:0 0 8px 32px;">
+          <td class="pl16" style="padding:0 0 8px 32px;">
             <a class="link" href="mailto:study@htmlacademy.ru" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#13D6C3;text-decoration:none;">study@htmlacademy.ru</a>
           </td>
         </tr>
         <tr>
-          <td style="padding:0 0 32px 32px;">
+          <td class="pl16" style="padding:0 0 32px 32px;">
             <a class="link" href="tel:+78006907668" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#13D6C3;text-decoration:none;">8-800-690-76-68</a>
           </td>
         </tr>
@@ -404,32 +463,32 @@
       <!--[if mso]></td><td style="width:0;"></td><td style="width:285px" valign="top"><![endif]-->
       <table class="column" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:285px;float:right;">
         <tr>
-          <td style="padding: 0 0 18px 32px;">
+          <td class="pl16" style="padding: 0 0 18px 0;">
             <h2 style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:16px;line-height:normal;color:#333333;"><b>Полезные ссылки</b></h2>
           </td>
         </tr>
         <tr>
-          <td style="padding: 0 0 8px 32px;">
+          <td class="pl16" style="padding: 0 0 8px 0;">
             <a class="default-link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#141414;">Бесплатные вебинары</a>
           </td>
         </tr>
         <tr>
-          <td style="padding: 0 0 8px 32px;">
+          <td class="pl16" style="padding: 0 0 8px 0;">
             <a class="default-link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#141414;">Обучающие курсы</a>
           </td>
         </tr>
         <tr>
-          <td style="padding: 0 0 8px 32px;">
+          <td class="pl16" style="padding: 0 0 8px 0;">
             <a class="default-link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#141414;">Тесты</a>
           </td>
         </tr>
         <tr>
-          <td style="padding: 0 0 8px 32px;">
+          <td class="pl16" style="padding: 0 0 8px 0;">
             <a class="default-link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#141414;">Наш блог</a>
           </td>
         </tr>
         <tr>
-          <td style="padding: 0 0 32px 32px;">
+          <td class="pl16" style="padding: 0 0 32px 0;">
             <a class="default-link" href="#" target="_blank" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:14px;line-height:normal;color:#141414;">Истории студентов</a>
           </td>
         </tr>
@@ -439,7 +498,7 @@
   </tr>
 </table>
 
-<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
   <tr>
     <td style="padding:0 16px 0 16px;">
       <hr style="Margin:0;border:none;height:1px;background-color:#E0E0E0;"/>
@@ -447,16 +506,16 @@
   </tr>
 </table>
 
-<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
+<table class="container" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="width:600px;background-color:#FFFFFF;">
   <tr>
-    <td style="padding:32px 32px 12px 32px;">
+    <td class="pl16 pr16" style="padding:32px 32px 12px 32px;">
       <p style="Margin:0;font-family:'trebuchet ms',tahoma,sans-serif;font-size:11px;line-height:normal;color:#828282;">Вы получили это письмо, так как являетесь пользователем портала HTMLPlay.
         Рассылка производится в соответствии с пользовательским соглашением.
         Если вы не хотите получать рассылку, вы можете <a class="default-link" href="#" target="_blank" style="color:#828282;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:11px;">отписаться</a> или <a class="default-link" href="#" target="_blank" style="color:#828282;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:11px;">настроить параметры</a>.</p>
     </td>
   </tr>
   <tr>
-    <td style="padding:0 32px 32px 32px;">
+    <td class="pl16 pr16" style="padding:0 32px 32px 32px;">
       <p style="Margin:0;Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms',tahoma,sans-serif;font-size:11px;line-height:normal;color:#828282;">Если письмо отображается некорректно или вы хотите им поделиться, <a class="default-link" href="#" target="_blank" style="color:#828282;">жмите сюда</a>.</p>
     </td>
   </tr>
