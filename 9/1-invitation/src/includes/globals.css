@@ -1,0 +1,74 @@
+.link:hover {
+  text-decoration: underline !important;
+}
+
+.default-link:hover {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100% !important;
+    min-width: 320px !important;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  .w100p {
+    width: 100% !important;
+  }
+
+  .w256 {
+    width: 256px !important;
+  }
+
+  .nofloat {
+    float: none !important;
+  }
+
+  .pl16 {
+    padding-left: 16px !important;
+  }
+
+  .pr16 {
+    padding-right: 16px !important;
+  }
+
+  .pb10 {
+    padding-bottom: 10px !important;
+  }
+
+  .pb16 {
+    padding-bottom: 16px !important;
+  }
+
+  .fs16 {
+    font-size: 16px !important;
+  }
+
+  .fs24 {
+    font-size: 24px !important;
+  }
+
+  .fs28 {
+    font-size: 28px !important;
+  }
+
+  .p24 {
+    padding: 24px !important;
+  }
+
+  /* Hero */
+  .hero-image {
+    width: 256px !important;
+    height: auto !important;
+  }
+
+  /* Prizes */
+  .prizes-image {
+    width: 254px !important;
+    height: 254px !important;
+  }
+}
