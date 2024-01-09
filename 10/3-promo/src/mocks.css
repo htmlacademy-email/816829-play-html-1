@@ -1,0 +1,13 @@
+body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 10000px;
+  opacity: 0.25;
+  pointer-events: none;
+
+  background: url("src/promo--desktop.png") no-repeat center top / 600px 2919px; left:0px; top:0px;
+  /*background: url("src/promo--mobile.png") no-repeat center top / 320px 4845px; left:0px; top:0px;*/
+}

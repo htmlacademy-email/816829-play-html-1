@@ -1,0 +1,103 @@
+.link:hover {
+  text-decoration: underline !important;
+}
+
+.default-link:hover {
+  text-decoration: none !important;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    width: 100% !important;
+    min-width: 320px !important;
+  }
+
+  .nofloat {
+    float: none !important;
+  }
+
+  .w100p {
+    width: 100% !important;
+  }
+
+  .p0 {
+    padding: 0 !important;
+  }
+
+  .pl0 {
+    padding-left: 0 !important;
+  }
+
+  .pl16 {
+    padding-left: 16px !important;
+  }
+
+  .pr16 {
+    padding-right: 16px !important;
+  }
+
+  .pb24 {
+    padding-bottom: 24px !important;
+  }
+
+  .pb34 {
+    padding-bottom: 34px !important;
+  }
+
+  .pb48 {
+    padding-bottom: 48px !important;
+  }
+
+  .pt30 {
+    padding-top: 30px !important;
+  }
+
+  .column {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .border-radius-0 {
+    border-radius: 0 !important;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .w-auto {
+    width: auto !important;
+  }
+
+  /* Заголовок */
+  .header-td-bottom {
+    padding-top: 24px !important;
+  }
+
+  /* Популярные курсы */
+  .popular-column {
+    width: 100% !important;
+  }
+
+  .popular-column-margin {
+    padding-bottom: 40px;
+  }
+
+  .popular-reset {
+    padding: 0 !important;
+  }
+
+  .popular-inner {
+    width: 152px !important;
+  }
+
+  .popular-image {
+    width: 288px !important;
+    height: 288px !important;
+  }
+
+  /* Hero */
+  .hero-column {
+    border-radius: 15px 15px 0 0 !important;
+  }
+}
